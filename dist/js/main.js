@@ -679,7 +679,7 @@ $("#form_modal_add_restaurant").on("submit", async() => {
 			});
 		}
 		else {
-			restaurant.success({
+			Notify.success({
 				title: "Restaurant Added",
 				html: `"${restaurant.title}" has been successfully added.`
 			});
@@ -728,7 +728,7 @@ $("#form_modal_add_youtube").on("submit", async() => {
 			});
 		}
 		else {
-			youtube.success({
+			Notify.success({
 				title: "Youtube Video Added",
 				html: `"${youtube.title}" has been successfully added.`
 			});
